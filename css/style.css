@@ -577,6 +577,13 @@ h1, h2, h3, h4, h5, h6,
     text-align: center;
 }
 
+.reputation-slider .slick-list {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
 .our-reputation .slider-item {
     padding: 20px;
     margin: 0px 10px 30px 10px;
@@ -586,7 +593,6 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .our-reputation .slider-item:hover {
-    box-shadow: #156CD766 1px 5px, #156CD74d 2px 10px, #156CD733 3px 15px, #156CD71a 4px 20px, #156CD70d 5px 25px;
     transform: scale(1.02);
     transition: 0.2s;
 }
@@ -622,7 +628,7 @@ h1, h2, h3, h4, h5, h6,
     margin: 20px 0px;
 }
 
-.our-reputation .reputation-slick-prev, 
+.our-reputation .reputation-slick-prev,
 .our-reputation .reputation-slick-next {
     border: none;
     border-radius: 50%;
@@ -632,6 +638,7 @@ h1, h2, h3, h4, h5, h6,
     align-items: center;
     justify-content: center;
     background: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
 .our-reputation .reputation-slick-prev:hover, 
