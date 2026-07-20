@@ -782,3 +782,54 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* our brands */
+
+/* moving shadow hover effect */
+
+@keyframes moving-shadow {
+    0%   { box-shadow: -8px  8px 16px var(--moving-shadow-color, rgba(0, 0, 0, .25)); }
+    25%  { box-shadow:  8px  8px 16px var(--moving-shadow-color, rgba(0, 0, 0, .25)); }
+    50%  { box-shadow:  8px -8px 16px var(--moving-shadow-color, rgba(0, 0, 0, .25)); }
+    75%  { box-shadow: -8px -8px 16px var(--moving-shadow-color, rgba(0, 0, 0, .25)); }
+    100% { box-shadow: -8px  8px 16px var(--moving-shadow-color, rgba(0, 0, 0, .25)); }
+}
+
+.btn:hover,
+.navbar-toggler:hover,
+.services-we-offer .card:hover,
+.customized-training .card:hover,
+.our-reputation .slider-item:hover,
+.our-reputation .reputation-slick-prev:hover,
+.our-reputation .reputation-slick-next:hover,
+.social-icon:hover,
+.explore-our-expertise a:hover {
+    animation: moving-shadow 1.8s linear infinite;
+}
+
+.btn-primary:hover,
+.our-reputation .reputation-slick-prev:hover,
+.our-reputation .reputation-slick-next:hover,
+.explore-our-expertise a:hover {
+    --moving-shadow-color: rgba(13, 110, 253, .45);
+}
+
+.btn-outline-light:hover {
+    --moving-shadow-color: rgba(255, 255, 255, .4);
+}
+
+.our-reputation .slider-item:hover {
+    --moving-shadow-color: rgba(21, 108, 215, .45);
+}
+
+.services-we-offer .card:hover {
+    --moving-shadow-color: rgba(255, 255, 255, .5);
+}
+
+.customized-training .card:hover {
+    --moving-shadow-color: rgba(0, 0, 0, .5);
+}
+
+.social-icon:hover {
+    --moving-shadow-color: rgba(0, 0, 0, .4);
+}
+
+/* moving shadow hover effect */
