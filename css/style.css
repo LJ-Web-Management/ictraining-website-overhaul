@@ -368,7 +368,8 @@ h1, h2, h3, h4, h5, h6,
 .services-we-offer .card {
     background: #D9D9D9;
     margin: 10px;
-    border:0
+    border: 0;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .15);
 }
 
 .services-we-offer .card .card-title .card-link{
@@ -799,8 +800,7 @@ h1, h2, h3, h4, h5, h6,
 .our-reputation .slider-item,
 .our-reputation .reputation-slick-prev,
 .our-reputation .reputation-slick-next,
-.social-icon,
-.explore-our-expertise a {
+.social-icon {
     transition: box-shadow 0.3s ease;
 }
 
@@ -811,15 +811,13 @@ h1, h2, h3, h4, h5, h6,
 .our-reputation .slider-item:hover,
 .our-reputation .reputation-slick-prev:hover,
 .our-reputation .reputation-slick-next:hover,
-.social-icon:hover,
-.explore-our-expertise a:hover {
+.social-icon:hover {
     box-shadow: 0 8px 20px var(--hover-shadow-color, rgba(0, 0, 0, .25));
 }
 
 .btn-primary:hover,
 .our-reputation .reputation-slick-prev:hover,
-.our-reputation .reputation-slick-next:hover,
-.explore-our-expertise a:hover {
+.our-reputation .reputation-slick-next:hover {
     --hover-shadow-color: rgba(13, 110, 253, .45);
 }
 
