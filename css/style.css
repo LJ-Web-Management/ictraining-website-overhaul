@@ -741,4 +741,43 @@ h1, h2, h3, h4, h5, h6,
     filter: grayscale(100%);
 }
 
+.explore-our-expertise .brand-logo-lockup {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.explore-our-expertise .brand-logo-lockup img {
+    height: 50px;
+    width: auto;
+    max-width: none;
+}
+
+.explore-our-expertise .brand-logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.explore-our-expertise .brand-logo-mark {
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: .3px;
+    color: #0b2545;
+}
+
+.explore-our-expertise .brand-logo-sub {
+    font-size: .68rem;
+    font-weight: 600;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    color: #6b7688;
+}
+
+.explore-our-expertise .brand-logo-sub.teal {
+    color: #0ea5a0;
+}
+
 /* our brands */
